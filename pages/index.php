@@ -94,7 +94,7 @@ $offer = mysqli_fetch_assoc($getres);
         <div class="right">
             <div class="slogan">
                 <p>Simplify Your Journey</p>
-                <p>Get Your Bonafide Certificate in Minutes!</p>
+                <p>Effortlessly Obtain Your Bonafide Certificate in Just a Few Days!</p>
                 <!-- <button class="see"><span>Ultimate</span> Application</button> -->
             </div>
         </div>
@@ -178,8 +178,8 @@ $offer = mysqli_fetch_assoc($getres);
     <!-- Offers Section -->
     <section class="offers" id="offers">
         <div class="head_tit">
-            <h3>Pick Student Combo Offers – Ultimate Academic Essentials Kits </h3>
-            <p>Get started with combo offers with comfindence and save your pocket money.</p>
+            <h3>Select Student Combo Offers – Comprehensive Academic Essentials Kits </h3>
+            <p>Begin your journey with combo offers confidently and save your budget.</p>
         </div>
         <!-- offfers Cards -->
         <div class="offers_container">
@@ -520,7 +520,7 @@ $offer = mysqli_fetch_assoc($getres);
             PayTerms.style.display = "block";
             setTimeout(() => {
                 PayTerms.style.display = "none";
-            }, 5000);
+            }, 8000);
 
         })
 

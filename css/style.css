@@ -375,6 +375,7 @@ section {
     align-items: start;
     justify-content: center;
     width: 100%;
+    margin-left: 190px;
 }
 
 .intro .right p {
