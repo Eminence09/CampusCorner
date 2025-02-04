@@ -99,7 +99,7 @@ $user_info = mysqli_fetch_assoc(mysqli_query($db, $sql));
     </div>
 
     <!-- Passmate instruction -->
-    <p>your under in passmate guideline and <a href="#">term&condition</a> and <a href="#">privacy policy</a>..</p>
+    <p>your under in passmate guideline and <a href="admin\PrivacyPolicy\passmate_privacy_policy_en.pdf">Term&Condition</a> and <a href="#">privacy policy</a>.</p>
     <p>Thanks, <?php echo $user ?></p>
 
 </div>
