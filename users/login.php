@@ -18,10 +18,10 @@ if (isset($_POST['login'])) {
         header("location:../pages/index.php");
     } else {
         echo "
-        <h1>Login Failed | Data Dose'nt match</h1>";
+        <h1>Login Failed | Incorrect Password or Username!</h1>";
 
         $redirectUrl = "login.php";
-        $timeout = 500;
+        $timeout = 5000;
 
     }
 }

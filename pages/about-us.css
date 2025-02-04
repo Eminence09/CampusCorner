@@ -121,12 +121,12 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background: var(--white-color);
+    /* background: var(--white-color); */
     backdrop-filter: blur(45px);
     align-items: center;
     padding: 20px 70px;
     justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     z-index: 99;
 }
 
@@ -138,13 +138,13 @@ nav .menu {
     display: none;
 }
 
-nav .menu a{
+nav .menu a {
     color: var(--epcl-titles-color);
     font-size: 25px;
     font-weight: 1000;
 }
 
-nav #sign_btn {
+/* nav #sign_btn {
     padding: 0.8rem 3rem;
     border: none;
     outline: none;
@@ -154,7 +154,7 @@ nav #sign_btn {
     font-size: 14px;
     font-weight: 600;
     border-radius: 2px;
-}
+} */
 
 
 
@@ -180,6 +180,8 @@ nav ul {
     display: flex;
     gap: 2rem;
     align-items: center;
+    position: fixed;
+    left: 20%;
 
 }
 
@@ -192,10 +194,11 @@ nav .navlist li a {
     text-decoration: none;
     color: var(--text-color);
     cursor: pointer;
-    letter-spacing: -0.1px;
-    font-weight: 600;
+    letter-spacing: 0.9px;
+    font-weight: 400;
     font-size: 14px;
     transition: all ease 0.5s;
+    text-transform: uppercase;
 }
 
 nav .navlist li::after {
@@ -209,17 +212,23 @@ nav .navlist li::after {
     transition: all ease 0.2s;
 }
 
+.navlist #joinus {
+    position: fixed;
+    right: 6%;
+    top: 38%;
+}
+
 /* nav .navlist li:hover::after {
     width: 80%;
 } */
 
-nav .navlist li:hover a {
+/* nav .navlist li:hover a {
     color: rgba(183, 22, 22, 0.806);
-}
+} */
 
-nav .navlist li:hover {
+/* nav .navlist li:hover {
     scale: 1.1;
-}
+} */
 
 
 nav .user_list a {
@@ -309,7 +318,6 @@ nav .user_list a .notifi_count {
     opacity: 0;
     z-index: -99;
     transition: all ease 0.2s;
-    position: fixed;
 }
 
 .extra_nav a {
@@ -427,10 +435,13 @@ section {
     margin-left: -100%;
 }
 
-.intro .left .image img {
-    width: 100%;
+img {
+    width: 30%;
     object-fit: cover;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    position: fixed;
+    right: 8%;
+    top: 22%;
+}
 
 }
 
@@ -482,8 +493,8 @@ section {
     padding: 5rem;
 }
 
-.mission .mission-container img {
-    width: 100%;
+img {
+    width: 30%;
     object-fit: cover;
 }
 
@@ -533,9 +544,9 @@ section {
     transition: all ease 0.2s;
 }
 
-.get_started .action_btns a:nth-child(2) button:hover {
+/* .get_started .action_btns a:nth-child(2) button:hover {
     transform: scale(1.1);
-}
+} */
 
 /* Footer Section Styylling Here */
 
@@ -735,7 +746,7 @@ ul {
 
 
 /* User Account Menu */
-.user_extra_nav {
+/* .user_extra_nav {
     position: absolute;
     top: 10%;
     left: 85%;
@@ -750,7 +761,7 @@ ul {
     padding: 10px;
     box-shadow: var(--box-shadow);
     display: none;
-}
+} */
 
 .user_extra_nav a {
     width: 100%;

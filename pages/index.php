@@ -26,7 +26,7 @@ $offer = mysqli_fetch_assoc($getres);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PassMate </title>
+    <title> CampusCorner </title>
     <!-- Swiper JS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
@@ -51,7 +51,7 @@ $offer = mysqli_fetch_assoc($getres);
         </div>
         <ul class="navlist">
             <li id="forms"><a href="#">Forms</a></li>
-            <li><a href="../pages/about.php">About</a></li>
+            <li><a href="../pages/about-us.php">About us</a></li>
             <li><a href="../pages/contact.php">ContactUs</a></li>
         </ul>
         <?php
