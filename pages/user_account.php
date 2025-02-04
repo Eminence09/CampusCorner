@@ -123,7 +123,7 @@ if ($ca < 1) {
         <li class="c_tab"><a href="../pages/user_account.php">Passes</a></li>
         <li><a href="../users/user_info.php">Account</a></li>
         <li><a href="../users/notification.php">Notification</a></li>
-        <li><a href="../users/setting.php">Setting</a></li>
+        <li><a href="../users/setting.php">Settings</a></li>
     </ul>
 </div>
 

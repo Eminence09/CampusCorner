@@ -256,13 +256,12 @@ $order_history_count = mysqli_num_rows($res_order_history);
         <?php
     } else { ?>
         <h1>Exlore Our Offers And Pick And Get Now With Extra Discount</h1>
-        <button><a href="http://localhost/projects/pass/pages/offerlanding.php?offer=4">Explore offers</a></button>
+        <button><a href="http://localhost/pass/pages/offerlanding.php?offer=4">Explore offers</a></button>
 
     <?php } ?>
 
 </section>
-
-
+        
 
 
 <?php include("../hf/footer.php"); ?>

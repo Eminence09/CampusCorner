@@ -195,7 +195,7 @@ $offer = mysqli_fetch_assoc($getres);
                     <div class="price_btn">
                         <a href="offerlanding.php?offer=1"><button>Get Now</button></a>
                     </div>
-                    <p class="instru">Perfect for students who need just the basics!</p>
+                    <p class="instru">Ideal for students seeking essential tools for success.</p>
                     <!-- Dicount Stamp -->
                     <div class="offers_stamp">
                         <p>50% Off</p>
@@ -208,8 +208,8 @@ $offer = mysqli_fetch_assoc($getres);
                     </svg>
                 </div>
                 <div class="offers_desc">
-                    <p><i class='bx bx-check'></i> Cardboard + Plastic ( Spring File ) 5x </p>
-                    <p><i class='bx bx-check'></i> File Pages Bundle 2x </p>
+                    <p><i class='bx bx-check'></i> Cardboard + Plastic Files 5x </p>
+                    <p><i class='bx bx-check'></i> Filler Pages Bundle 2x </p>
                     <p class="not_avl"><i class='bx bx-minus'></i> Semester All Books </p>
                     <p class="not_avl"><i class='bx bx-minus'></i> Notebooks 1x </p>
                     <p class="not_avl"><i class='bx bx-minus'></i> Pen Box 1x </p>
@@ -230,7 +230,7 @@ $offer = mysqli_fetch_assoc($getres);
                     <div class="price_btn">
                         <a href="offerlanding.php?offer=2"><button>Get Now</button></a>
                     </div>
-                    <p class="instru">For students who need a little extra for regular studies!</p>
+                    <p class="instru">Having the right tools can make all the difference in your academic success.</p>
                     <!-- Dicount Stamp -->
                     <div class="offers_stamp">
                         <p>35% Off</p>
@@ -243,8 +243,8 @@ $offer = mysqli_fetch_assoc($getres);
                     </svg>
                 </div>
                 <div class="offers_desc">
-                    <p><i class='bx bx-check'></i> Cardboard + Plastic ( Spring File ) 5x </p>
-                    <p><i class='bx bx-check'></i> File Pages Bundle 5x </p>
+                    <p><i class='bx bx-check'></i> Cardboard + Plastic Files 5x </p>
+                    <p><i class='bx bx-check'></i> Filler Pages Bundle 5x </p>
                     <p class="not_avl"><i class='bx bx-minus'></i> Semester All Books </p>
                     <p><i class='bx bx-check'></i> Notebooks 3x </p>
                     <p><i class='bx bx-check'></i> Pen Box 1x + Highlighter</p>
@@ -264,7 +264,7 @@ $offer = mysqli_fetch_assoc($getres);
                     <div class="price_btn">
                         <a href="offerlanding.php?offer=3"><button>Get Now</button></a>
                     </div>
-                    <p class="instru">The ultimate kit for students who want everything !</p>
+                    <p class="instru">The all-in-one kit for students who want all the essential tools for college achievement</p>
                     <!-- Dicount Stamp -->
                     <div class="offers_stamp">
                         <p>40% Off</p>
@@ -277,8 +277,8 @@ $offer = mysqli_fetch_assoc($getres);
                     </svg>
                 </div>
                 <div class="offers_desc">
-                    <p><i class='bx bx-check'></i> Cardboard + Plastic ( Spring File ) 5x </p>
-                    <p><i class='bx bx-check'></i> (Premium) File Pages Bundle 5x </p>
+                    <p><i class='bx bx-check'></i> Cardboard + Plastic Files 5x </p>
+                    <p><i class='bx bx-check'></i> Filler Pages Bundle 5x (Premium) </p>
                     <p><i class='bx bx-check'></i> Semester All Books </p>
                     <p><i class='bx bx-check'></i> Notebooks 5x</p>
                     <p><i class='bx bx-check'></i> Pen Box 1x + Highlighter 2x + Per. Marker</p>
@@ -465,7 +465,7 @@ $offer = mysqli_fetch_assoc($getres);
             } else { ?>         <?php echo $data['name']; ?>     <?php }
             ; ?> ,
                 Welcome to our Campus</h1>
-            <p>Let's start with quick explore our offers for you to make college life easy and Enjoyble.</p>
+            <p>We invite you to explore our offerings designed to enhance your college experience, making it both convenient and enjoyable.</p>
             <div class="action_btns">
                 <a href="#"><button>Explore Offers</button></a>
                 <a href="#"><button>Learn More <i class='bx bx-right-arrow-alt'></i></button></a>

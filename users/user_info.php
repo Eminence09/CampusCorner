@@ -154,7 +154,7 @@ $user_info = mysqli_fetch_assoc(mysqli_query($db, $sql));
                 <?php } ?>
             </div>
             <div class="input-box">
-                <label>Birth Date</label>
+                <label>Date of Birth</label>
                 <?php
                 if ($user_data['birthdate'] == '') {
                     ?>
