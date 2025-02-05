@@ -13,7 +13,7 @@
     /* font-family: 'Jost', sans-serif; */
     /* font-family: "Montserrat", serif; */
     font-optical-sizing: auto;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-family: "Poppins", serif;
     /* font-style: normal; */
 }
@@ -87,9 +87,9 @@ body {
     flex-direction: column;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 
 /* Curoser Pointer */
 a,
@@ -258,7 +258,18 @@ nav .user_list a .notifi_count {
     border-radius: 50%;
 }
 
-
+h1 {
+    font-family: "Mate SC", serif;
+    font-weight: 100;
+    font-size: 88px;
+    line-height: 0.9;
+    letter-spacing: 0em;
+    margin-left: 2rem;
+    color: #151515;
+    position: absolute;
+    top: 41%;
+    left: 18%;
+}
 
 
 

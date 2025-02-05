@@ -19,7 +19,7 @@ if (isset($_POST['subscribe'])) {
     }
 
 }
-
+    
 
 $fetchquery = "select subscription from users where email = '$user'";
 $fetchres = mysqli_query($db, $fetchquery);

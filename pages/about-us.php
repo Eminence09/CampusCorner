@@ -25,8 +25,8 @@
         </div>
         <ul class="navlist">
             <li id="forms"><a href="index.php">CampusCorner.com</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Services</a></li>
+            <li><a href="../admin/PrivacyPolicy/privacy.php">Privacy Policy</a></li>
+            <li><a href="../admin/PrivacyPolicy/termsofservice.php">Terms of Services</a></li>
             <li id="joinus"><a href="../users/login.php">Join Us</a></li>
         </ul>
         <?php
@@ -57,8 +57,12 @@
 
     </nav>
     <div class="banner">
+        <div class="aboutus">About Us</div>
         <img src="../admin/assets/about.webp" alt="">
     </div>
+
+    <h1>About Us</p>
 </body>
+
 
 </html>

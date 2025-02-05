@@ -1,6 +1,6 @@
 <?php
 // Path to the PDF file
-$pdfFile = "passmate_privacy_policy_en.pdf";
+$pdfFile = "passmate_terms_of_service_en_in.pdf";
 
 // Check if the file exists
 if (file_exists($pdfFile)) {

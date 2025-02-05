@@ -70,7 +70,6 @@ $unread_count = mysqli_fetch_assoc($unread_count_result)['unread_count'];
     </div>
 
 
-
 </body>
 
 </html>

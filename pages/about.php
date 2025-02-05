@@ -37,7 +37,7 @@ include("../hf/pages.php");
 
 </section>
 
-<div class="about_why">
+<div class="about_why"> 
     <h4>Why <span>Choose US</span>
         <line></line>
     </h4>
