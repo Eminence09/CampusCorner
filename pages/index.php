@@ -67,7 +67,7 @@ $offer = mysqli_fetch_assoc($getres);
             $sql_unread = "SELECT COUNT(*) as unread_count FROM notification WHERE user = '$user' AND is_read = 0";
             $unread_count_result = mysqli_query($db, $sql_unread);
             $unread_count = mysqli_fetch_assoc($unread_count_result)['unread_count'];
-            ?>
+        ?>
             <ul class="user_list">
                 <a href="../users/notification.php"><i class='bx bx-bell'></i>
                     <span id="count_notifi"
@@ -76,7 +76,7 @@ $offer = mysqli_fetch_assoc($getres);
                 <li id="user_icon"><a href="../pages/user_account.php"><i class='bx bx-user'></i></a></li>
             </ul>
         <?php } else {
-            ?>
+        ?>
             <a href="../users/login.php" id="sign_btn">SIGN IN</a>
         <?php } ?>
 
@@ -458,12 +458,11 @@ $offer = mysqli_fetch_assoc($getres);
     <!-- Get Started Section -->
     <?php
     if (isset($_SESSION['logins'])) {
-        ?>
+    ?>
         <section class="get_started">
             <h1>Hey <?php if ($data['name'] == '') {
-                echo "Student";
-            } else { ?>         <?php echo $data['name']; ?>     <?php }
-            ; ?> ,
+                        echo "Student";
+                    } else { ?> <?php echo $data['name']; ?> <?php }; ?> ,
                 Welcome to our Campus</h1>
             <p>We invite you to explore our offerings designed to enhance your college experience, making it both convenient and enjoyable.</p>
             <div class="action_btns">
@@ -490,7 +489,7 @@ $offer = mysqli_fetch_assoc($getres);
 
     <!-- Swiper For Curosel Script -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             new Swiper(".shop_grid_sports", {
                 slidesPerView: 3, // Show 3 slides at a time
                 spaceBetween: 20, // Gap between slides
@@ -501,14 +500,18 @@ $offer = mysqli_fetch_assoc($getres);
                     disableOnInteraction: false,
                 },
                 breakpoints: {
-                    1024: { slidesPerView: 3 }, // Large screens: 3 items
-                    768: { slidesPerView: 2 },  // Tablets: 2 items
-                    480: { slidesPerView: 1 },  // Mobile: 1 item
+                    1024: {
+                        slidesPerView: 3
+                    }, // Large screens: 3 items
+                    768: {
+                        slidesPerView: 2
+                    }, // Tablets: 2 items
+                    480: {
+                        slidesPerView: 1
+                    }, // Mobile: 1 item
                 }
             });
         });
-
-
     </script>
 
     <!-- Payment Terms Script -->
@@ -523,8 +526,6 @@ $offer = mysqli_fetch_assoc($getres);
             }, 8000);
 
         })
-
-
     </script>
 
     <!-- Automatically Change Texts -->
@@ -576,16 +577,13 @@ $offer = mysqli_fetch_assoc($getres);
                 });
             });
         }
-
+ 
         // Start the cycle
         cycleTexts();
     </script>
 
     <!-- Train APP and Bus App -->
     <script>
-
-
-
         const TrainLi = document.querySelector(".train_li"),
             BusLi = document.querySelector(".bus_li"),
             TrainApp = document.querySelector(".train_app"),
@@ -608,12 +606,9 @@ $offer = mysqli_fetch_assoc($getres);
             TrainApp.style.display = "flex";
 
         })
-
-
     </script>
 
     <script>
-
         const paragraphs = document.querySelectorAll('.paragraph');
         let currentIndex = 0;
 
@@ -625,7 +620,6 @@ $offer = mysqli_fetch_assoc($getres);
 
         // Change paragraph every 3 seconds
         setInterval(showNextParagraph, 3000);
-
     </script>
 
 
@@ -634,7 +628,7 @@ $offer = mysqli_fetch_assoc($getres);
         var i;
 
         for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
+            acc[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 this.parentElement.classList.toggle("active");
 

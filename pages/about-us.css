@@ -81,15 +81,11 @@ html {
 
 body {
     background-color: var(--body-color);
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-}
+    height: 500vh;
 
-/* body::-webkit-scrollbar {
-    display: none;
-} */
+}
 
 /* Curoser Pointer */
 a,
@@ -258,20 +254,169 @@ nav .user_list a .notifi_count {
     border-radius: 50%;
 }
 
-h1 {
+#about-us-p {
     font-family: "Mate SC", serif;
     font-weight: 100;
-    font-size: 88px;
+    font-size: 50px;
     line-height: 0.9;
     letter-spacing: 0em;
     margin-left: 2rem;
     color: #151515;
     position: absolute;
-    top: 41%;
-    left: 18%;
+    top: 18%;
+    cursor: pointer;
+    left: 4%;
 }
 
 
+.container {
+    position: absolute;
+    bottom: -20%;
+    display: flex;
+    /* justify-content: end; */
+    text-wrap: 100px;
+    width: 95vw;
+    left: 3%;
+}
+
+#myMarquee {
+    position: absolute;
+    top: 50%;
+}
+
+.marq {
+    font-size: 65px;
+}
+
+
+.paragraph {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+.container .left {
+    position: relative;
+    top: 700px;
+    /* right: 46vw; */
+    width: 47vw;
+
+}
+
+.container .left p {
+    width: 47vw;
+    font-size: 22px;
+    /* font-family: 'HMSergelHeadline-Regular', sans-serif; */
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.05;
+    font-family: "Mate SC", serif;
+}
+
+.m-span {
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+
+.right span {
+    font-size: 20px;
+    display: flex;
+    text-align: justify;
+
+}
+
+.right p {
+    width: 47vw;
+    font-size: 22px;
+    /* font-family: 'HMSergelHeadline-Regular', sans-serif; */
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.05;
+    font-family: "Mate SC", serif;
+
+}
+
+.-main-line- {
+    margin-bottom: 25px;
+}
+
+.welcome {
+    position: absolute;
+    top: 40vh;
+    height: 100%;
+    left: -5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome h2 {
+    font-family: "Mate SC", serif;
+    font-weight: 100;
+    width: 71vw;
+}
+
+.m-content {
+    position: absolute;
+    width: 59vw;
+}
+
+.welcome p {
+    font-size: xx-large;
+    width: 50vw;
+}
+
+.vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    position: absolute;
+    left: 42%;
+    font-size: 18px;
+    top: 45px;
+}
+
+.-main-line {
+    margin-bottom: 25px;
+}
+
+.-main-line-- {
+    margin-bottom: 25px;
+}
+
+.paragraph {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+.marq-content-main {
+    height: 400px;
+    width: 100%;
+    /* background: red; */
+    position: absolute;
+    bottom: -230%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .notification_counter .count {
     position: absolute;
@@ -377,84 +522,16 @@ section {
 }
 
 
-/* Intro Section Stylling Here */
-
-.intro {
-    width: 150%;
-    margin-left: -25%;
-    padding: 50px;
-    border-radius: 0% 0% 100% 100% / 0% 0% 100% 97%;
-    box-shadow: var(--box-shadow);
-    background: black;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-
-.intro .right {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    width: 100%;
-    margin-left: 190px;
-}
-
-.intro .right p {
-    font-size: 30px;
-    color: rgb(203, 203, 217);
-    margin-bottom: 1rem;
-    font-family: "Oswald", serif;
-}
-
-.intro .right .slogan button {
-    padding: 15px 40px;
-    margin-top: 1rem;
-    border: none;
-    background: black;
-    color: var(--white-color);
-    cursor: pointer;
-    border-radius: 3px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.intro .right .slogan button span {
-    color: #ffeb3b;
-}
-
-.intro .right p:nth-child(2) {
-    color: rgb(203, 203, 217);
-    font-family: "Oswald", serif;
-}
-
-.intro .right #text {
-    color: var(--text-color);
-    font-size: 25px;
-    color: var(--epcl-black-color);
-}
-
-.intro .left {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.intro .left .image {
-    width: 60%;
-    overflow: hidden;
-    position: relative;
-    margin-left: -100%;
-}
 
 img {
     width: 30%;
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     right: 8%;
     top: 22%;
-}
 
 }
+
 
 
 /* Mission Section STylling Here */
@@ -504,10 +581,7 @@ img {
     padding: 5rem;
 }
 
-img {
-    width: 30%;
-    object-fit: cover;
-}
+
 
 .get_started {
     width: 100%;

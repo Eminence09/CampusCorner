@@ -39,6 +39,7 @@ $unread_count = mysqli_fetch_assoc($unread_count_result)['unread_count'];
     <link rel="stylesheet" href="../pages/style.css">
     <link rel="stylesheet" href="../pages/index.css">
     <link rel="stylesheet" href="../users/style.css">
+    <link rel="stylesheet" href="../pages/about-us.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -53,7 +54,7 @@ $unread_count = mysqli_fetch_assoc($unread_count_result)['unread_count'];
         </div>
         <ul class="navlist">
             <li id="forms"><a href="#">Forms</a></li>
-            <li><a href="../pages/about.php">About</a></li>
+            <li><a href="../pages/about-us.php">About</a></li>
             <li><a href="../pages/contact.php">ContactUs</a></li>
         </ul>
         <ul class="user_list">

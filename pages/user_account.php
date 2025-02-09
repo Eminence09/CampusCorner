@@ -130,7 +130,7 @@ if ($ca < 1) {
 
 
 <section class="slider">
-    <h3>Current Applyer</h3>
+    <h3>Pass Appeal</h3>
     <div class="container" id="user_account_container">
         <?php if ($ca > 1 or $ca == 1) {
             while ($train_row = mysqli_fetch_array($caresult)) { ?>
