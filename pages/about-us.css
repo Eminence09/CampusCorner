@@ -73,6 +73,7 @@
 
 }
 
+
 body,
 html {
     width: 100%;
@@ -104,11 +105,9 @@ li,
 a {
     list-style: none;
     text-decoration: none;
+    color: #939393;
 }
 
-a {
-    text-decoration: none;
-}
 
 /* Navabar Stylling Here */
 nav {
@@ -191,8 +190,8 @@ nav .navlist li a {
     color: var(--text-color);
     cursor: pointer;
     letter-spacing: 0.9px;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 350;
+    font-size: 13.5px;
     transition: all ease 0.5s;
     text-transform: uppercase;
 }
@@ -206,6 +205,76 @@ nav .navlist li::after {
     bottom: -5px;
     background: var(--epcl-main-color);
     transition: all ease 0.2s;
+}
+
+.sb {
+    margin-left: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sb-1:hover {
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    transition: color .3s ease;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer hr {
+    position: relative;
+    left: 18%;
+    min-width: 72vw;
+    top: -20px;
+}
+
+.sub-content ul {
+    display: flex;
+    position: relative;
+    right: -15%;
+    margin-top: 20px;
+    top: -35px;
+
+
+}
+
+#sb4 {
+    margin-left: 29%;
+}
+
+.text-container {
+    display: flex;
+    justify-content: end;
+    font-size: 80px;
+    position: relative;
+    left: 5%;
+    margin-bottom: 50px;
+
+}
+
+#text {
+    transform: translateY(20px);
+    transition: 0.2s ease, transform 0.2s ease;
+}
+
+.our-team {
+    /* background-color: red; */
+    height: 130vh;
+    position: absolute;
+    top: 285%;
+    width: 100%;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: -400%;
 }
 
 .navlist #joinus {
@@ -312,7 +381,6 @@ nav .user_list a .notifi_count {
 .container .left p {
     width: 47vw;
     font-size: 22px;
-    /* font-family: 'HMSergelHeadline-Regular', sans-serif; */
     font-weight: 400;
     font-size: 32px;
     line-height: 1.05;
@@ -370,8 +438,9 @@ nav .user_list a .notifi_count {
 }
 
 .welcome p {
-    font-size: xx-large;
+    font-size: 35px;
     width: 50vw;
+    text-align: justify;
 }
 
 .vision {
@@ -418,6 +487,75 @@ nav .user_list a .notifi_count {
     align-items: center;
 }
 
+
+.Review-inst {
+    position: relative;
+    left: 8%;
+
+}
+
+.team-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 9%;
+    position: absolute;
+    left: 11%;
+}
+
+#r-amisha {
+    color: red;
+    position: relative;
+    top: 226px;
+    left: -11%;
+}
+
+.base-card {
+    height: 382px;
+    width: 18vw;
+    background: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform .2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base-card:hover {
+    transform: scale(1.05);
+
+}
+
+.uni {
+    position: relative;
+    top: -10%;
+    left: 35%;
+}
+
+.uniq {
+    position: relative;
+    bottom: -14%;
+    left: -14%;
+}
+
+.hover-text {
+    display: none;
+    /* transform: translateX(-50%); */
+    color: white;
+    border-radius: 5px;
+
+}
+
+.base-card:hover .hover-text {
+    display: block;
+
+}
+
+
 .notification_counter .count {
     position: absolute;
     top: -10px;
@@ -453,6 +591,11 @@ nav .user_list a .notifi_count {
     background: #f9f9f9;
     border-left: 5px solid red;
 }
+
+/* .sub-content #cc {
+    color: black;
+
+} */
 
 /* Extra Nav Styllinf Here */
 .extra_nav {
@@ -581,7 +724,48 @@ img {
     padding: 5rem;
 }
 
+.name {
+    color: red;
+    position: relative;
+    top: 226px;
+    display: flex;
+    left: -15%;
 
+}
+
+#yash {
+    color: red;
+    position: relative;
+    top: 226px;
+    display: flex;
+    left: -15%;
+}
+
+
+#ritesh {
+    color: red;
+    position: relative;
+    top: 226px;
+    display: flex;
+    left: -16%;
+}
+
+.o-t {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Mate SC", serif;
+    font-weight: 100;
+    font-size: 4rem;
+    margin-top: -15px;
+    line-height: 1.33333;
+}
+
+#small-statement {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
 
 .get_started {
     width: 100%;

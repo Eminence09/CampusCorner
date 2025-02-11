@@ -577,7 +577,7 @@ $offer = mysqli_fetch_assoc($getres);
                 });
             });
         }
- 
+
         // Start the cycle
         cycleTexts();
     </script>

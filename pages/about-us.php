@@ -25,8 +25,9 @@
         </div>
         <ul class="navlist">
             <li id="forms"><a href="index.php">CampusCorner.com</a></li>
-            <li><a href="../admin/PrivacyPolicy/privacy.php">Privacy Policy</a></li>
+            <li><a href="#">Documentation</a></li>
             <li><a href="../admin/PrivacyPolicy/termsofservice.php">Terms of Services</a></li>
+            <li><a href="../admin/PrivacyPolicy/privacy.php">Privacy Policy</a></li>
             <li id="joinus"><a href="../users/login.php">Join Us</a></li>
         </ul>
         <?php
@@ -98,39 +99,57 @@
         </div>
     </div>
 
-    <!-- <p>The Journey Starts Here.</p> -->
+    <div class="our-team">
+        <div class="o-t">Our Team</div>
+        <p id="small-statement">long statent</p>
+        <div class="team-card">
+            <div class="Review-inst base-card">
 
-    <div class="large-text">
-        <h4>Our Mission</h4>
-        <div class="paragraph-container">
-            <div class="paragraph active">"Your Journey Starts Here – Hassle-Free Bonafide Solutions!"</div>
-            <div class="paragraph">"Less Paperwork, More Travel – Get Certified Instantly!"</div>
-            <div class="paragraph">"One Click Away from Simplifying Your Commute!"</div>
-            <div class="paragraph">College Life Made Easier – Your Bonafide Certificate Awaits!</div>
-            <div class="paragraph">"Where Convenience Meets Your Travel Needs – Apply Now!"</div>
-            <div class="paragraph">"From Campus to Commute – Get Your Bonafide in No Time!"</div>
-            <div class="paragraph">"Your Ticket to Smooth Travel Begins with Us!"</div>
-            <div class="paragraph">"Say Goodbye to Stress, and Hello to Easy Travel Pass Applications!"
+                <span class="info hover-text uni">Reviewing Instructor</span>
+                <span class="info hover-text uniq">Lecturer at Information Technology Department</span>
             </div>
-            <div class="paragraph">"Travel Smarter, Not Harder – Bonafide Certificates Made Simple!"</div>
-            <div class="paragraph">"Empowering Students, One Certificate at a Time!"</div>
+            <p class="name" id="r-amisha">Honored Amisha D. Patel</p>
+            <div class="Project-Lead base-card">
+                <span class="info hover-text uni">Project Lead</span>
+                <span class="info hover-text uniq">Student at Information Technology</span>
+            </div>
+            <p class="name" id="yash">Yash Banait</p>
+
+            <div class="Technical-Lead base-card">
+                <span class="info hover-text uni">Technical Lead</span>
+                <span class="info hover-text uniq">Student at Information Technology</span>
+
+            </div>
+            <p class="name" id="ritesh"> Ritesh Thakare</p>
+
+           
+
         </div>
+
+
+
+
+
     </div>
 
+    <footer>
+        <hr>
+        <div class="sub-content">
+            <ul>
+                <li class="sb-1 sb"><a href="../pages/index.php">Let's Go</a></li>
+                <li class="sb">Contact Us</li>
+                <li class="sb"><a id="cc" href="../pages/index.php">CampusCorner.com</a></li>
+                <li id="sb4">2025 CampusCorner Ritesh & Yash GPV.</li>
+            </ul>
+        </div>
+
+
+        <div class="text-container">
+            <p id="text">The journey starts here.</p>
+        </div>
+    </footer>
 </body>
 
-<script>
-    const paragraphs = document.querySelectorAll('.paragraph');
-    let currentIndex = 0;
 
-    function showNextParagraph() {
-        paragraphs[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex + 1) % paragraphs.length;
-        paragraphs[currentIndex].classList.add('active');
-    }
-
-    // Change paragraph every 3 seconds
-    setInterval(showNextParagraph, 3200);
-</script>
 
 </html>

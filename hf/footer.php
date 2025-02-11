@@ -17,14 +17,12 @@ if (isset($_POST['subscribe'])) {
     } else {
         echo "<style> .footer-col .hidden_mail_subscribe { display:flex; } </style>";
     }
-
 }
-    
+
 
 $fetchquery = "select subscription from users where email = '$user'";
 $fetchres = mysqli_query($db, $fetchquery);
 $fetchdata = mysqli_fetch_assoc($fetchres);
-
 
 
 ?>
@@ -73,7 +71,7 @@ $fetchdata = mysqli_fetch_assoc($fetchres);
                     <p>Bonafide Certificates for College Students in Just a Few Clicks!</p><br>
                     <?php if (isset($_SESSION['logins'])) {
                         if ($fetchdata['subscription'] == 'subscribe') {
-                            ?>
+                    ?>
                             <p id="subscri_p">You are already subscribed to our newsletter</p>
                         <?php } else { ?>
                             <p id="subscri_p">The latest news , articles and resources sent your inbox weekly. Subscribe Now</p>
