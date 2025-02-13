@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
     <!-- <link rel="stylesheet" href="../css/index_media.css"> -->
-    <link rel="stylesheet" href="../pages/about-us.css">
-    <link rel="stylesheet" href="../css/style_media.css">
+    <link rel="stylesheet" href="../Samples/about-us.css">
+    <!-- <link rel="stylesheet" href="../css/style_media.css"> -->
     <!-- <link rel="stylesheet" href="index.css"> -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -58,50 +58,66 @@
 
     </nav>
 
-    <div class="welcome">
-        <h2>
-            <p>"<strong>Greetings from CampusCorner</strong>, where we believe every student deserves a platform for connection and growth, bridging the gap between students and vital resources"</p>
-        </h2>
-    </div>
 
-    <div class="about-cont">
-        <img src="../admin/assets/about.webp" alt="">
 
-        <p id="about-us-p">About Us</p>
-    </div>
-    <div class="container">
-        <div class="right">
-            <div class="vision">
-                <h3>Vision</h3>
-            </div>
-            <div class="-main-line-">
-                <p>We envision a vibrant campus community where every student feels connected, informed, and inspired to reach their full potential.
-            </div>
-            <span>"Our vision is to revolutionize the process of obtaining bonafide certificates by providing a seamless and efficient service that prioritizes our clients' time and resources. We aim to create an experience where the issuance of bonafide certificates is not only expedited but also requires minimal effort and financial investment from our clients. By streamlining this process, we aspire to empower individuals to focus on their core priorities, confident in the knowledge that we are managing the necessary arrangements with utmost professionalism and care. Our commitment is to enhance accessibility and convenience, ensuring that obtaining a bonafide certificate is a hassle-free experience for everyone."</span>
-            </p>
+    <div class="about-container">
+        <div class="welcome">
+            <p id="about-us-p">About Us</p>
+            <h2>
+                <p>"<strong>Greetings from CampusCorner</strong>, where we believe every student deserves a platform for connection and growth, bridging the gap between students and vital resources"</p>
+            </h2>
         </div>
+        <div class="about-cont">
+            <img src="../admin/assets/about.webp" alt="">
+
+        </div>
+    </div>
 
 
-        <div class="left">
-            <div class="mission">
-                <h3>Mission</h3>
+
+
+    <div class="v-container">
+        <div class="r-right">
+            <div class="right">
+                <div class="vision">
+                    <h3>Vision</h3>
+                </div>
+                <div class="-main-line-">
+                    <p>We envision a vibrant campus community where every student feels connected, informed, and inspired to reach their full potential.
+                </div>
+                <span>"Our vision is to revolutionize the process of obtaining bonafide certificates by providing a seamless and efficient service that prioritizes our clients' time and resources. We aim to create an experience where the issuance of bonafide certificates is not only expedited but also requires minimal effort and financial investment from our clients. By streamlining this process, we aspire to empower individuals to focus on their core priorities, confident in the knowledge that we are managing the necessary arrangements with utmost professionalism and care. Our commitment is to enhance accessibility and convenience, ensuring that obtaining a bonafide certificate is a hassle-free experience for everyone."</span>
+                </p>
             </div>
-            <div class="-main-line--">
-                <p>Through a commitment to innovation and collaboration, we are devoted to enhancing our institute as a more interconnected and supportive environment for all students.</p>
-            </div>
-            <div class="m-content">
-                <span class="m-span">1. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates while simultaneously optimizing cost efficiency to the greatest extent possible</span>
-                <span class="m-span">2. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates whi</span>
-                <span class="m-span">3. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates while simultaneously optimizing cost efficiency to the greatest extent possible</span>
-                <span class="m-span">4. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates while simultaneously optimizing cost efficiency to the greatest extent possible</span>
-                <span class="m-span">5. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates while simultaneously optimizing cost efficiency to the greatest extent possible</span>
+        </div>
+    </div>
+
+
+    <div id="m-container">
+        <div class="l-left">
+            <div class="left">
+                <div class="mission">
+                    <h3>Mission</h3>
+                </div>
+                <div class="-main-line--">
+                    <p>Through a commitment to innovation and collaboration, we are devoted to enhancing our institute as a more interconnected and supportive environment for all students.</p>
+                </div>
+                <div class="m-content">
+                    <span class="m-span">1. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates while simultaneously optimizing cost efficiency to the greatest extent possible</span>
+                    <span class="m-span">2. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates whi</span>
+                    <span class="m-span">3. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates while simultaneously optimizing cost efficiency to the greatest extent possible</span>
+                    <span class="m-span">4. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates while simultaneously optimizing cost efficiency to the greatest extent possible</span>
+                    <span class="m-span">5. Our objective is to significantly alleviate the burden on students in obtaining bonafide certificates while simultaneously optimizing cost efficiency to the greatest extent possible</span>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="our-team">
-        <div class="o-t">Our Team</div>
-        <p id="small-statement">long statent</p>
+        <div class="o-t">
+            Our Team
+            <p id="small-statement">long statent</p>
+        </div>
+
         <div class="team-card">
             <div class="Review-inst base-card">
 

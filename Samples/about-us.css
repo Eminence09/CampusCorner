@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+
+:root {
+
+    /* Another Styllling */
+    --text-color: #414141;
+    --white-color: #ffffff;
+    --hover-text-color: #6b7284;
+
+    /* Fix The Colours */
+    --body-color: #F9F9FE;
+    --epcl-main-color: #FF4C60;
+    --epcl-secondary-color: #65EBE7;
+    --epcl-titles-color: #454360;
+    --epcl-black-color: #4B4870;
+    --epcl-text-color: #596172;
+    --epcl-border-color: #EEEEEE;
+    --epcl-input-bg-color: #F9F9FE;
+    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --header-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    /* Card Root Colors */
+    /* Change favorite color - Blue 210 - Purple 250 - Green 142 - Pink 340*/
+    --hue-color: 210;
+
+    /* HSL color mode */
+    --first-color: hsl(var(--hue-color), 96%, 54%);
+    --first-color-light: hsl(var(--hue-color), 96%, 69%);
+    --first-color-alt: hsl(var(--hue-color), 96%, 37%);
+    --first-color-lighter: hsl(var(--hue-color), 14%, 96%);
+    --title-color: hsl(var(--hue-color), 12%, 15%);
+    --text-color: hsl(var(--hue-color), 12%, 35%);
+    --text-color-light: hsl(var(--hue-color), 12%, 65%);
+    --white-color: #FFF;
+    --body-color: hsl(var(--hue-color), 100%, 99%);
+    --container-color: #FFF;
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Lato', sans-serif;
+    --pricing-font: 'Rubik', sans-serif;
+    --biggest-font-size: 1.75rem;
+    --normal-font-size: .938rem;
+    --h2-font-size: 1.25rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
+
+    /*========== Margenes Bottom ==========*/
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-1: 1rem;
+    --mb-1-25: 1.25rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+
+}
+
+
+body,
+html {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: var(--body-color);
+
+}
+
+/* Curoser Pointer */
+a,
+ul li,
+li,
+.logo,
+h3,
+h2 .title,
+title,
+button,
+input {
+    cursor: pointer;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #939393;
+}
+
+
+
+nav {
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(45px);
+    align-items: center;
+    padding: 20px 70px;
+    justify-content: space-between;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    z-index: 99;
+}
+
+
+nav .logo {
+    font-size: 18px;
+}
+
+nav .menu {
+    display: none;
+}
+
+nav .menu a {
+    color: var(--epcl-titles-color);
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+
+
+nav .logo a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 800;
+    position: relative;
+    font-family: "Oswald", serif;
+}
+
+
+nav .logo a span {
+    /* color: var(--hover-text-color); */
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: "Oswald", serif;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    position: fixed;
+    left: 20%;
+
+}
+
+nav .navlist li {
+    position: relative;
+    transition: all ease 0.2s;
+}
+
+nav .navlist li a {
+    text-decoration: none;
+    color: var(--text-color);
+    cursor: pointer;
+    letter-spacing: 0.9px;
+    font-weight: 350;
+    font-size: 13.5px;
+    transition: all ease 0.5s;
+    text-transform: uppercase;
+}
+
+nav .navlist li::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    left: 0;
+    bottom: -5px;
+    background: var(--epcl-main-color);
+    transition: all ease 0.2s;
+}
+
+nav .user_list a {
+    position: relative;
+    font-size: 14px;
+}
+
+nav .user_list a i {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+nav .user_list a .notifi_count {
+    width: 15px;
+    height: 15px;
+    color: var(--white-color);
+    position: absolute;
+    background: var(--epcl-main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+    font-size: 8px;
+    right: -30%;
+    border-radius: 50%;
+}
+
+#about-us-p {
+    font-family: "Mate SC", serif;
+    font-weight: 100;
+    margin-left: -2%;
+    font-size: 50px;
+    line-height: 0.9;
+    letter-spacing: 0em;
+    color: #151515;
+    /* position: absolute; */
+    /* top: 18%; */
+    cursor: pointer;
+    /* left: 4%; */
+}
+
+.v-container {
+    /* position: absolute; */
+    /* bottom: -20%; */
+    display: flex;
+    justify-content: end;
+    /* text-wrap: 100px; */
+    width: 95vw;
+    /* left: 3%; */
+}
+
+
+.m-container {
+    /* position: absolute; */
+    /* bottom: -20%; */
+    display: flex;
+    justify-content: start;
+    /* text-wrap: 100px; */
+    width: 95vw;
+    /* left: 3%; */
+}
+
+img {
+    width: 65%;
+    margin-top: 40px;
+    object-fit: cover;
+    margin-left: 21%;
+
+}
+
+.welcome {
+    /* position: absolute; */
+    /* top: 40vh; */
+    /* height: 100%; */
+    /* left: -5%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.welcome h2 {
+    font-family: "Mate SC", serif;
+    font-weight: 100;
+    /* width: 71vw; */
+}
+
+.welcome p {
+    font-size: 35px;
+    margin-left: 10%;
+    width: 50vw;
+    text-align: justify;
+    font-weight: 100;
+    /* font-family: "Mate SC", serif; */
+    font-weight: 100;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background: rosybrown; */
+}
+
+.navlist #joinus {
+    position: fixed;
+    right: 6%;
+    top: 38%;
+}
+
+.r-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.l-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 5%;
+}
+
+.right {
+    width: 50vw;
+    margin-top: 28%;
+}
+
+.left {
+    width: 50vw;
+    margin-top: 10%;
+}
+
+.right span {
+    font-size: 20px;
+    display: flex;
+    text-align: justify;
+    margin-top: 28px;
+}
+
+
+.left span {
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
+    margin-top: 28px;
+}
+
+.right h3 {
+    font-size: x-large;
+}
+
+
+.left h3 {
+    font-size: x-large;
+}
+
+.right h3 {
+    font-size: x-large;
+}
+
+.right p {
+    width: 47vw;
+    font-size: 22px;
+    /* font-family: 'HMSergelHeadline-Regular', sans-serif; */
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.05;
+    font-family: "Mate SC", serif;
+}
+
+
+.left p {
+    width: 47vw;
+    font-size: 22px;
+    /* font-family: 'HMSergelHeadline-Regular', sans-serif; */
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.05;
+    font-family: "Mate SC", serif;
+}
+
+
+.vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-team {
+    /* background-color: red; */
+    height: 130vh;
+    /* position: absolute; */
+    /* top: 285%; */
+    width: 100%;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 9%;
+    position: absolute;
+    left: 10%;
+}
+
+
+.base-card {
+    height: 382px;
+    width: 18vw;
+    background: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform .2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base-card:hover {
+    transform: scale(1.05);
+
+}
+
+.uni {
+    position: relative;
+    top: -10%;
+    left: 35%;
+}
+
+.uniq {
+    position: relative;
+    bottom: -14%;
+    left: -14%;
+}
+
+.hover-text {
+    display: none;
+    /* transform: translateX(-50%); */
+    color: white;
+    border-radius: 5px;
+
+}
+
+.base-card:hover .hover-text {
+    display: block;
+
+}
+
+.name {
+    color: red;
+    position: relative;
+    top: 226px;
+    display: flex;
+    left: -15%;
+
+}
+
+#yash {
+    color: red;
+    position: relative;
+    top: 226px;
+    display: flex;
+    left: -15%;
+}
+
+
+#ritesh {
+    color: red;
+    position: relative;
+    top: 226px;
+    display: flex;
+    left: -16%;
+}
+
+.o-t {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Mate SC", serif;
+    font-weight: 100;
+    font-size: 4rem;
+    margin-top: -15px;
+    line-height: 1.33333;
+}
+
+#small-statement {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
