@@ -136,10 +136,16 @@
         <hr>
         <div class="sub-content">
             <ul>
-                <li class="sb-1 sb"><a href="../pages/index.php">Let's Go</a></li>
-                <li class="sb"><a href="../pages/contact-us.php">Contact Us</a></li>
-                <li class="sb" id="cc"><a href="../pages/index.php">CampusCorner.com</a></li>
-                <li id="sb4">2025 CampusCorner Ritesh & Yash GPV.</li>
+                <div class="footer-stuffs">
+                    <div class="footer-content">
+                        <li class="sb-1 sb"><a href="../pages/index.php">Let's Go</a></li>
+                        <li class="sb"><a href="../pages/contact-us.php">Contact Us</a></li>
+                        <li class="sb" id="cc"><a href="../pages/index.php">CampusCorner.com</a></li>
+                    </div>
+                    <div class="2025">
+                        <li id="sb4">2025 CampusCorner Ritesh & Yash GPV.</li>
+                    </div>
+                </div>
             </ul>
         </div>
 

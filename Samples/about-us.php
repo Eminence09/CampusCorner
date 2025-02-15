@@ -112,55 +112,83 @@
         </div>
     </div>
 
-    <div class="our-team">
-        <div class="o-t">
-            Our Team
-            <p id="small-statement">long statent</p>
+    <div class="slogan-ani">
+        <div class="and">&</div>
+
+        <div class="slogo-text">
+            <div class="text">
+                <span>Be Careful</span>
+                <span>Your College</span>
+                <span>Connect</span>
+                <span>Engage</span>
+            </div>
         </div>
 
-        <div class="team-card">
-            <div class="Review-inst base-card">
-
-                <span class="info hover-text uni">Reviewing Instructor</span>
-                <span class="info hover-text uniq">Lecturer at Information Technology Department</span>
+        <div class="slogo-text2">
+            <div class="text2">
+                <span>Notice Everything!</span>
+                <span>Notice Everything!</span>
+                <span>Create: Where Ideas Flourish</span>
+                <span>Elevate: Empowering Every Student.</span>
             </div>
-            <p class="name" id="r-amisha">Honored Amisha D. Patel</p>
-            <div class="Project-Lead base-card">
-                <span class="info hover-text uni">Project Lead</span>
-                <span class="info hover-text uniq">Student at Information Technology</span>
-            </div>
-            <p class="name" id="yash">Yash Banait</p>
-
-            <div class="Technical-Lead base-card">
-                <span class="info hover-text uni">Technical Lead</span>
-                <span class="info hover-text uniq">Student at Information Technology</span>
-
-            </div>
-            <p class="name" id="ritesh"> Ritesh Thakare</p>
-
-
-
         </div>
-
-
-
-
 
     </div>
+    <div class="our-team">
+        <div class="o-t">
+            <h2 class="our-t">Our Team</h2>
+            <p id="small-statement">long statent</p>
+        </div>
+        <div class="team-card">
+            <div class="first-card">
+                <div class="Review-inst base-card">
+                    <p class="info hover-text uni">Reviewing Instructor</p>
+                    <p class="info hover-text uniq">Lecturer at Information Technology Department</p>
+                </div>
+                <div>
+                    <p class="name" id="r-amisha">Honored Amisha D. Patel</p>
+                </div>
+            </div>
+            <div class="second-card">
+                <div class="Project-Lead base-card">
+                    <span class="info hover-text uni">Project Lead</span>
+                    <span class="info hover-text uniq">Student at Information Technology</span>
+                </div>
+                <div>
+                    <p class="name" id="yash">Yash Banait</p>
+                </div>
+            </div>
+            <div class="third-card">
+                <div class="Technical-Lead base-card">
+                    <span class="info hover-text uni">Technical Lead</span>
+                    <span class="info hover-text uniq">Student at Information Technology</span>
+                </div>
+                <div>
+                    <p class="name" id="ritesh"> Ritesh Thakare</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <footer>
         <hr>
         <div class="sub-content">
             <ul>
-                <li class="sb-1 sb"><a href="../pages/index.php">Let's Go</a></li>
-                <li class="sb"><a href="../pages/contact-us.php">Contact Us</a></li>
-                <li class="sb" id="cc"><a href="../pages/index.php">CampusCorner.com</a></li>
-                <li id="sb4">2025 CampusCorner Ritesh & Yash GPV.</li>
+                <div class="footer-stuffs">
+                    <li class="sb-1 sb"><a href="../pages/index.php">Let's Go</a></li>
+                    <li class="sb"><a href="../pages/contact-us.php">Contact Us</a></li>
+                    <li class="sb" id="cc"><a href="../pages/index.php">CampusCorner.com</a></li>
+                </div>
+                <div class="gpv-footer">
+                    <li id="sb4">2025 CampusCorner Ritesh & Yash GPV.</li>
+                </div>
             </ul>
         </div>
 
 
-        <div class="text-container">
+        <div class="footer-text">
             <p id="text">The journey starts here.</p>
         </div>
     </footer>

@@ -79,7 +79,7 @@
 
 .shop .head_tit h3,
 .offers .head_tit h3 {
-    font-size: 43px;
+    font-size: 50px;
     color: black;
     font-family: "Oswald", serif;
     text-transform: uppercase;
@@ -1146,7 +1146,7 @@
         padding: 1rem;
     }
 
-    .shop .shop_grid .shop_grid_box{
+    .shop .shop_grid .shop_grid_box {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -1157,28 +1157,27 @@
     #shop_sports {
         display: none;
     }
-  
-.testimonials .testimonial_slider {
-    flex-direction: column;
-}
 
-.testimonials .head_tit h3 {
-    font-size: 2rem;
-}
+    .testimonials .testimonial_slider {
+        flex-direction: column;
+    }
 
-.testimonials .head_tit p:nth-child(2) {
-    display: none;
-}
+    .testimonials .head_tit h3 {
+        font-size: 2rem;
+    }
 
-.shop .head_tit h3,
-.offers .head_tit h3 {
-    text-align: center;
-}
+    .testimonials .head_tit p:nth-child(2) {
+        display: none;
+    }
 
-.shop .head_tit p,
-.offers .head_tit p{
-    text-align: center;
-}
+    .shop .head_tit h3,
+    .offers .head_tit h3 {
+        text-align: center;
+    }
+
+    .shop .head_tit p,
+    .offers .head_tit p {
+        text-align: center;
+    }
 
 }
-
